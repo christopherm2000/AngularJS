@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+<div ng-app="" ng-init="a=2">
+
+<p>a*1={{ a * 1 }}</p>
+<p>2*2={{ a * 2 }}</p>
+<p>2*3={{ a * 3 }}</p>
+<p>2*4={{ a * 4 }}</p>
+<p>2*5={{ a * 5 }}</p>
+<p>2*6={{ a * 6 }}</p>
+<p>2*7={{ a * 7 }}</p>
+<p>2*8={{ a * 8 }}</p>
+<p>2*9={{ a * 9 }}</p>
+<p>2*10={{ a * 10}}</p>
+
+</div>
+</body>
+</html>
