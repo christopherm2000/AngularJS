@@ -6,12 +6,12 @@
 <body>
 <h2>Tabla inmultirii</h2>
   <div ng-app="" 
-  ng-init="nums=[1,2,3,4,5,6,7,8,9,10];
-  digits = [2,3,4,5,6,7,8,9,10]">
+  ng-init="numere=[1,2,3,4,5,6,7,8,9,10];
+  tablite=[2,3,4,5,6,7,8,9,10]">
   
-    <div ng-repeat="y in digits">
+    <div ng-repeat="y in tablite">
       <ul>
-        <li ng-repeat="x in nums">
+        <li ng-repeat="x in numere">
           {{y}} * {{x}} = {{y * x }}
         </li>
       </ul>
